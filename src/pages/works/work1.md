@@ -1,6 +1,7 @@
 ---
 title: Software Engineer
 date: 01/2024 - Present
+url: https://www.linkedin.com/in/kate-mcelhaney/
 location: Remote
 org: Freelance
 tags: ["Programming", "Coding", "Project Management", "Full Stack", "Web Development"]

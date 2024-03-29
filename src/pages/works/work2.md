@@ -1,7 +1,7 @@
 ---
 title: Chief Program Officer
 date: 10/2021 - 01/2024
-url: www.crhdc.org
+url: https://crhdc.org/
 location: Westminster, CO
 org: Community Resources and Housing Development Corporation
 tags: ["Project Managment", "CRM Development", "Web Development", "Compliance", "Grants Managmenet", "Cross-Departmental Management"]

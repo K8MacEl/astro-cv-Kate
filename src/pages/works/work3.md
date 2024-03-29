@@ -1,7 +1,7 @@
 ---
 title: Grants/Loans Project Manager
 date: 06/2019 - 10/2021
-url: www.renewdenver.org
+url: https://renewdenver.org/
 location: Denver, CO
 org: Denver Urban Renewal Authority (DURA)
 tags: ["Project Managment", "CRM Development", "Marketing", "Compliance", "Grants Management", "Cross-Departmental Management"]
