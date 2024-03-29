@@ -1,0 +1,91 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "^/_astro/(.*)$",
+			"headers": {
+				"cache-control": "public, max-age=31536000, immutable"
+			},
+			"continue": true
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "^\\/_image$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/about\\/about\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/blogs\\/blog\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/certificates\\/pmp\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/certificates\\/sei\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/contact\\/email\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/contact\\/github\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/contact\\/linkedin\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/projects\\/hqpsec\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/projects\\/techmatch\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/studies\\/csuGlobal\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/studies\\/csuSoc\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/studies\\/csuSw\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/studies\\/gaSei\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/works\\/work1\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/works\\/work2\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/works\\/work3\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/works\\/work4\\/?$",
+			"dest": "_render"
+		},
+		{
+			"src": "^\\/$",
+			"dest": "_render"
+		}
+	]
+}
