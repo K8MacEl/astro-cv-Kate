@@ -1,7 +1,7 @@
 ---
 title: about
 name: "Kate McElhaney"
-designation: "Senior Developer"
+designation: "Full Stack Engineer"
 location: Aurora, Colorado
 pronouns: "she/her"
 
