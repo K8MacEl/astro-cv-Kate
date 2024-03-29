@@ -1,10 +1,10 @@
 ---
-title: Bank accountant
-date: 05/1995 - 09/1998
-url: http://ropibbe.nf/savadru
-location: Los Angeles, California
-org: Savadru Bank
-tags: ["accounting", "finance", "customer support", "management"]
+title: Software Engineer
+date: 01/2024 - Present
+location: Remote
+org: Freelance
+tags: ["Programming", "Coding", "Project Management", "Full Stack", "Web Development"]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+● Planning and developing full stack software engineering projects for small business owners and nonprofits
+● Develops thoughtful and efficient web based applications for small budget clients with MERN stacks
