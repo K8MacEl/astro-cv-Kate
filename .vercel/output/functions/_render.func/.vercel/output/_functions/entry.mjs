@@ -1,5 +1,5 @@
 import { renderers } from './renderers.mjs';
-import { l as levels, g as getEventPrefix, L as Logger, A as AstroIntegrationLogger, manifest } from './manifest_D8c2IaTy.mjs';
+import { l as levels, g as getEventPrefix, L as Logger, A as AstroIntegrationLogger, manifest } from './manifest_dourBO5h.mjs';
 import { A as AstroError, R as ResponseSentError, n as MiddlewareNoDataOrNextCalled, o as MiddlewareNotAResponse, p as ROUTE_TYPE_HEADER, G as GetStaticPathsRequired, q as InvalidGetStaticPathsReturn, t as InvalidGetStaticPathsEntry, v as GetStaticPathsExpectedParams, w as GetStaticPathsInvalidRouteParam, P as PageNumberParamNotFound, N as NoMatchingStaticPathFound, x as PrerenderDynamicEndpointPathCollide, y as ReservedSlotName, z as renderSlotToString, B as renderJSX, C as chunkToString, D as clientAddressSymbol$1, H as ClientAddressNotAvailable, S as StaticClientAddressNotAvailable, J as responseSentSymbol$1, K as LocalsNotAnObject, O as clientLocalsSymbol, Q as ASTRO_VERSION, T as renderEndpoint, V as renderPage, W as REROUTABLE_STATUS_CODES, X as REROUTE_DIRECTIVE_HEADER } from './chunks/astro_CAOiRXV7.mjs';
 import { serialize, parse } from 'cookie';
 import { e as appendForwardSlash, j as joinPaths, t as trimSlashes, s as slash, p as prependForwardSlash, r as removeTrailingForwardSlash, f as collapseDuplicateSlashes } from './chunks/astro/assets-service_Iip_nxyQ.mjs';
@@ -2050,24 +2050,27 @@ const createExports = (manifest, { middlewareSecret }) => {
 };
 
 const _page0 = () => import('./chunks/generic_DtxfhQei.mjs');
-const _page1 = () => import('./chunks/about_BpH2iGuy.mjs');
-const _page2 = () => import('./chunks/blog_C5I4b6i5.mjs');
-const _page3 = () => import('./chunks/pmp_DBdVRQAB.mjs');
-const _page4 = () => import('./chunks/sei_Ddmwpdi1.mjs');
-const _page5 = () => import('./chunks/email_B7y6j4gP.mjs');
-const _page6 = () => import('./chunks/github_BIynL2Ln.mjs');
-const _page7 = () => import('./chunks/linkedin_CiEOi9Yw.mjs');
-const _page8 = () => import('./chunks/hqpsec_CbTFRV1q.mjs');
-const _page9 = () => import('./chunks/techmatch_CDWSFi8f.mjs');
-const _page10 = () => import('./chunks/csuGlobal_8LsdCKe5.mjs');
-const _page11 = () => import('./chunks/csuSoc_Cip-gZSJ.mjs');
-const _page12 = () => import('./chunks/csuSw_CI3HaEA6.mjs');
-const _page13 = () => import('./chunks/gaSei_0sextcV2.mjs');
-const _page14 = () => import('./chunks/work1_Bz5ARylk.mjs');
-const _page15 = () => import('./chunks/work2_gP1q2q2O.mjs');
-const _page16 = () => import('./chunks/work3_sCWqkhKv.mjs');
-const _page17 = () => import('./chunks/work4_B6BpqzOu.mjs');
-const _page18 = () => import('./chunks/index_8fbtZep2.mjs');
+const _page1 = () => import('./chunks/about_C9oBCVst.mjs');
+const _page2 = () => import('./chunks/blog_D05_v10I.mjs');
+const _page3 = () => import('./chunks/pmp_L0e5bluJ.mjs');
+const _page4 = () => import('./chunks/sei_CiF47mat.mjs');
+const _page5 = () => import('./chunks/email_DSn_BUKi.mjs');
+const _page6 = () => import('./chunks/github_CB7Dn4Q-.mjs');
+const _page7 = () => import('./chunks/linkedin_Dr8GAKWR.mjs');
+const _page8 = () => import('./chunks/email__6GH-n1Q.mjs');
+const _page9 = () => import('./chunks/github_CVBiEbEp.mjs');
+const _page10 = () => import('./chunks/linkedin_DqbKepD5.mjs');
+const _page11 = () => import('./chunks/hqpsec_BcE2XsKk.mjs');
+const _page12 = () => import('./chunks/techmatch_6MXNy08L.mjs');
+const _page13 = () => import('./chunks/csuGlobal_C5VBhLPF.mjs');
+const _page14 = () => import('./chunks/csuSoc_CALPgmQO.mjs');
+const _page15 = () => import('./chunks/csuSw_Ba_-8RnE.mjs');
+const _page16 = () => import('./chunks/gaSei_DEvfLPzD.mjs');
+const _page17 = () => import('./chunks/work1_KHwoMgDv.mjs');
+const _page18 = () => import('./chunks/work2_DOQZQ7bc.mjs');
+const _page19 = () => import('./chunks/work3_CkxGi7oD.mjs');
+const _page20 = () => import('./chunks/work4_1aShrSXP.mjs');
+const _page21 = () => import('./chunks/index_BvY_ibyF.mjs');
 const pageMap = new Map([
     ["node_modules/astro/dist/assets/endpoint/generic.js", _page0],
     ["src/pages/about/about.md", _page1],
@@ -2077,17 +2080,20 @@ const pageMap = new Map([
     ["src/pages/contact/email.md", _page5],
     ["src/pages/contact/github.md", _page6],
     ["src/pages/contact/linkedin.md", _page7],
-    ["src/pages/projects/hqpsec.md", _page8],
-    ["src/pages/projects/techmatch.md", _page9],
-    ["src/pages/studies/csuGlobal.md", _page10],
-    ["src/pages/studies/csuSoc.md", _page11],
-    ["src/pages/studies/csuSw.md", _page12],
-    ["src/pages/studies/gaSei.md", _page13],
-    ["src/pages/works/work1.md", _page14],
-    ["src/pages/works/work2.md", _page15],
-    ["src/pages/works/work3.md", _page16],
-    ["src/pages/works/work4.md", _page17],
-    ["src/pages/index.astro", _page18]
+    ["src/pages/more/email.md", _page8],
+    ["src/pages/more/github.md", _page9],
+    ["src/pages/more/linkedin.md", _page10],
+    ["src/pages/projects/hqpsec.md", _page11],
+    ["src/pages/projects/techmatch.md", _page12],
+    ["src/pages/studies/csuGlobal.md", _page13],
+    ["src/pages/studies/csuSoc.md", _page14],
+    ["src/pages/studies/csuSw.md", _page15],
+    ["src/pages/studies/gaSei.md", _page16],
+    ["src/pages/works/work1.md", _page17],
+    ["src/pages/works/work2.md", _page18],
+    ["src/pages/works/work3.md", _page19],
+    ["src/pages/works/work4.md", _page20],
+    ["src/pages/index.astro", _page21]
 ]);
 
 const _manifest = Object.assign(manifest, {
@@ -2096,7 +2102,7 @@ const _manifest = Object.assign(manifest, {
     middleware: onRequest
 });
 const _args = {
-    "middlewareSecret": "1dfb0e98-6f6f-477d-882e-cea0d7371e6e"
+    "middlewareSecret": "f2750aa8-6981-41a8-b6e0-073decf7835e"
 };
 const _exports = createExports(_manifest, _args);
 const __astrojsSsrVirtualEntry = _exports.default;
