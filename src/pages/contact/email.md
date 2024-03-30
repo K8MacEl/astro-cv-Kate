@@ -1,5 +1,5 @@
 ---
 title: Email
 icon: carbon:email
-url: mailto:kqmcelhaney@gmail.com
+url: kate@katemcelhaney.com
 ---
