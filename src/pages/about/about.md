@@ -1,6 +1,7 @@
 ---
 title: about
 name: "Kate McElhaney"
+email: "Kate@katemcelhaney.com"
 designation: "Full Stack Engineer"
 location: Aurora, Colorado
 pronouns: "she/her"
