@@ -10,7 +10,7 @@ const icons = {"carbon":{"prefix":"carbon","icons":{"3d-cursor":{"body":"<path d
 
 const cache = /* @__PURE__ */ new WeakMap();
 
-const $$Astro$8 = createAstro();
+const $$Astro$8 = createAstro("https://github.com/K8MacEl/astro-cv-Kate");
 const $$Icon = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$8, $$props, $$slots);
   Astro2.self = $$Icon;
@@ -65,14 +65,14 @@ const $$Icon = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<svg${spreadAttributes(normalizedProps)}${addAttribute(name, "data-icon")}> ${title && renderTemplate`<title>${title}</title>`} ${inline ? renderTemplate`${renderComponent($$result, "Fragment", Fragment, { "id": id }, { "default": ($$result2) => renderTemplate`${unescapeHTML(normalizedBody)}` })}` : renderTemplate`${renderComponent($$result, "Fragment", Fragment, {}, { "default": ($$result2) => renderTemplate`${includeSymbol && renderTemplate`<symbol${addAttribute(id, "id")}>${unescapeHTML(normalizedBody)}</symbol>`}<use${addAttribute(`#${id}`, "xlink:href")}></use> ` })}`} </svg>`;
 }, "/Users/trevormcelhaney/code/portfolio/astro-cv-Kate/node_modules/astro-icon/components/Icon.astro", void 0);
 
-const $$Astro$7 = createAstro();
+const $$Astro$7 = createAstro("https://github.com/K8MacEl/astro-cv-Kate");
 const $$BaseLayout = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$7, $$props, $$slots);
   Astro2.self = $$BaseLayout;
   return renderTemplate`<html lang="gl"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CV Template</title>${renderHead()}</head> <body> ${renderSlot($$result, $$slots["default"])} </body></html>`;
 }, "/Users/trevormcelhaney/code/portfolio/astro-cv-Kate/src/layouts/BaseLayout.astro", void 0);
 
-const $$Astro$6 = createAstro();
+const $$Astro$6 = createAstro("https://github.com/K8MacEl/astro-cv-Kate");
 const $$AccordionLayout = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
   Astro2.self = $$AccordionLayout;
@@ -80,7 +80,7 @@ const $$AccordionLayout = createComponent(async ($$result, $$props, $$slots) => 
   return renderTemplate`${renderComponent($$result, "BaseLayout", $$BaseLayout, { "data-astro-cid-5gutpwss": true }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="collapse collapse-arrow" data-astro-cid-5gutpwss> <input${addAttribute(title, "aria-label")} type="checkbox" data-astro-cid-5gutpwss> <div class="collapse-title font-extrabold tracking-tight md:text-2xl" data-astro-cid-5gutpwss> <div class="flex" data-astro-cid-5gutpwss> ${renderComponent($$result2, "Icon", $$Icon, { "name": icon, "class": "w-8 h-8 mr-4", "data-astro-cid-5gutpwss": true })} ${title} </div> </div> <div class="collapse-content" data-astro-cid-5gutpwss> ${renderSlot($$result2, $$slots["default"])} </div> </div> ` })} `;
 }, "/Users/trevormcelhaney/code/portfolio/astro-cv-Kate/src/layouts/AccordionLayout.astro", void 0);
 
-const $$Astro$5 = createAstro();
+const $$Astro$5 = createAstro("https://github.com/K8MacEl/astro-cv-Kate");
 const $$Card = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
   Astro2.self = $$Card;
@@ -88,7 +88,7 @@ const $$Card = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<div class="card card-compact card-bordered border border-[oklch(var(--s))] w-full md:w-112 lg:w-128 hover:shadow-lg transition-all my-4"> <div class="card-body"> <div class="grid grid-cols-3 gap-4 mb-2"> <div class="self-start col-span-2 justify-self-start text-left"> <h1 class="uppercase card-title font-extrabold tracking-tighter md:text-2xl">${title}</h1> ${location && renderTemplate`<div class="flex items-center mt-2"> ${renderComponent($$result, "Icon", $$Icon, { "name": "carbon:location", "class": "w-4 h-4 mr-1" })} <p class="text-sm  font-light text-secondary">${location}</p> </div>`} </div> <div class="self-center justify-self-end"> ${timeframe && renderTemplate`<div class="badge w-max h-max text-center badge-outline inline-block align-middle shadow-md font-mono"> ${timeframe} </div>`} </div> </div> <div class="grid grid-cols-3 gap-4 place-items-center"> <div class="self-start col-span-2 justify-self-start text-left"> <article class="prose"> ${renderComponent($$result, "Fragment", Fragment, {}, { "default": ($$result2) => renderTemplate`${unescapeHTML(description)}` })} </article> ${Array.isArray(tags) && renderTemplate`<div class="flex flex-wrap content-around gap-2 my-4"> ${tags.map((item) => renderTemplate`<span class="badge text-center inline-block align-middle w-max h-max text-sm  badge-outline shadow-md mb-1"${addAttribute(item, ":key")}>${item}</span>`)} </div>`} </div> <div class="self-center justify-self-end"> <a${addAttribute(url, "href")} target="_blank" class="link link-hover text-sm text-right flex justify-center items-center"> ${url_name} ${url !== "#" && renderTemplate`${renderComponent($$result, "Icon", $$Icon, { "name": "carbon:link", "class": "w-4 h-4 ml-2" })}`} </a> </div> </div> </div> </div>`;
 }, "/Users/trevormcelhaney/code/portfolio/astro-cv-Kate/src/components/Card.astro", void 0);
 
-const $$Astro$4 = createAstro();
+const $$Astro$4 = createAstro("https://github.com/K8MacEl/astro-cv-Kate");
 const $$ContactCard = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
   Astro2.self = $$ContactCard;
@@ -96,7 +96,7 @@ const $$ContactCard = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<a target="_blank"${addAttribute(url, "href")}> <button class="btn btn-outline btn-md mr-2">${renderComponent($$result, "Icon", $$Icon, { "name": icon, "class": "w-6 h-6" })}${url_name}</button> </a>`;
 }, "/Users/trevormcelhaney/code/portfolio/astro-cv-Kate/src/components/ContactCard.astro", void 0);
 
-const $$Astro$3 = createAstro();
+const $$Astro$3 = createAstro("https://github.com/K8MacEl/astro-cv-Kate");
 const $$Container = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$Container;
@@ -120,7 +120,7 @@ const $$Container = createComponent(async ($$result, $$props, $$slots) => {
   })} </div> ` })} </div>`;
 }, "/Users/trevormcelhaney/code/portfolio/astro-cv-Kate/src/components/Container.astro", void 0);
 
-const $$Astro$2 = createAstro();
+const $$Astro$2 = createAstro("https://github.com/K8MacEl/astro-cv-Kate");
 const $$Footer = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Footer;
@@ -130,7 +130,7 @@ const $$Footer = createComponent(async ($$result, $$props, $$slots) => {
 <a target="_blank" class="link ml-1" href="https://github.com/K8MacEl/astro-cv-Kate.git">Kate McElhaney</a> </p> <img class="rounded-full w-4 h-4 ml-2 shadow-md border border-black" src="gl_flag_128x.png" alt="Galician Flag"> </footer>`;
 }, "/Users/trevormcelhaney/code/portfolio/astro-cv-Kate/src/components/Footer.astro", void 0);
 
-const $$Astro$1 = createAstro();
+const $$Astro$1 = createAstro("https://github.com/K8MacEl/astro-cv-Kate");
 const $$Header = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Header;
@@ -141,7 +141,7 @@ var __freeze = Object.freeze;
 var __defProp = Object.defineProperty;
 var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(raw || cooked.slice()) }));
 var _a;
-const $$Astro = createAstro();
+const $$Astro = createAstro("https://github.com/K8MacEl/astro-cv-Kate");
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$Index;
